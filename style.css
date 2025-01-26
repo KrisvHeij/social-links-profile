@@ -1,7 +1,7 @@
 @import url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
 
 :root {
-  --c-yellow: hsl(75, 94%, 57%);
+  --c-green: hsl(75, 94%, 57%);
   --c-white: hsl(0, 0%, 100%);
   --c-grey-700: hsl(0, 0%, 20%);
   --c-grey-800: hsl(0, 0%, 12%);
@@ -22,4 +22,72 @@ body {
   font-size: 14px;
   background-color: var(--c-grey-900);
   color: var(--c-white);
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.flex-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-socials {
+  background-color: var(--c-grey-800);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card-img img {
+  width: 35%;
+  border-radius: 50%;
+}
+
+.card-header {
+  padding: 0 14px;
+}
+
+.card-header h1 {
+  font-size: 22px;
+  font-weight: var(--fw-600);
+  margin-top: 18px;
+}
+
+.card-city {
+  margin-top: 8px;
+  color: var(--c-green);
+}
+
+.card-description {
+  margin: 22px 0;
+  opacity: 0.6;
+}
+
+.card-links {
+  display: grid;
+  gap: 14px;
+}
+
+.card-link {
+  font-weight: var(--fw-600);
+  padding: 14px;
+  background-color: var(--c-grey-700);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card-link:hover {
+  background-color: var(--c-green);
+  color: var(--c-grey-800);
+  caret-color: var(--c-grey-900);
 }
