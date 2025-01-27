@@ -91,3 +91,13 @@ img {
   color: var(--c-grey-800);
   caret-color: var(--c-grey-900);
 }
+
+@media (min-width: 768px) {
+  .card-socials {
+    padding: 35px;
+  }
+
+  .card-header {
+    padding: 0 28px;
+  }
+}
